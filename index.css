@@ -21,6 +21,9 @@ header {
     transition: top 0.3s ease-in-out; /* Add this for a smooth animation */
 }
 
+#cart {
+    translate: 1rem;
+}
 /* This new rule hides the header when this class is applied */
 header.header-hidden {
     top: -150px; /* Hides the header by moving it up. Adjust if your nav bar is taller. */

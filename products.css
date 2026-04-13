@@ -13,6 +13,10 @@ nav {
     width: 100%;
 }
 
+#cart {
+    translate: 1rem;
+}
+
 /* --- Navigation Bar --- */
 header {
     position: sticky; /* This makes the header stick to the top */

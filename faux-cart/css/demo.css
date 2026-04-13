@@ -9,6 +9,11 @@
     color: rgb(225,225,0);
 }
 
+.prodDesc {
+    color: rgb(225,225,0);
+    margin-bottom: 0.5rem;
+}
+
 body {
     font-family: 'poppins', sans-serif;
     background-color: rgb(134, 176, 132,);
@@ -59,6 +64,7 @@ main {
 .prodPrice {
     display: inline-block;
     margin-top: 0.5em;
+    color: rgb(225,225,0)
 }
 
 .prodBtn,

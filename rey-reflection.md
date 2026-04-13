@@ -21,3 +21,4 @@ Google Gemini:
 14. Making the Cart page more modern (ended up only changing the edge of the borders)
 15. Make submissions in the search bar lead the user to the products page
 16. Make the main content for the home. ("This late into the project?" Yes.)
+17. Make the search bar work

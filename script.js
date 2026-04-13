@@ -77,3 +77,23 @@ window.addEventListener("scroll", () => {
     // Finally, we update the last scroll position to the current one.
     lastScrollY = window.scrollY;
 });
+
+    // --- NEW: Search Bar Logic ---
+    const searchForm = document.getElementById('search-form');
+    const searchBar = document.getElementById('search-bar');
+
+if (searchForm) {
+        searchForm.addEventListener('submit', (event) => {
+            // 1. Prevent the form from reloading the page
+            event.preventDefault(); 
+            
+            // 2. Get the search term and remove extra whitespace
+            const query = searchBar.value.trim();
+
+            // 3. If there is a search term, redirect to the products page
+            if (query) {
+                // We pass the search term as a URL parameter
+                window.location.href = `products.html?search=${encodeURIComponent(query)}`;
+            }
+        });
+    };
